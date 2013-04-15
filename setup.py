@@ -35,13 +35,13 @@ if __name__ == '__main__':
         ),
         zip_safe = False,
         install_requires = (
-            'Django>=1.4',
+            'Django>=1.3',
             'django-tastypie>=0.9.12',
             'mongoengine>=0.6.11',
         ),
         test_suite = 'tests.runtests.runtests',
         tests_require = (
-            'Django>=1.4',
+            'Django>=1.3',
             'django-tastypie>=0.9.12',
             'mongoengine>=0.6.11',
             'nose',
